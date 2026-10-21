@@ -57,6 +57,63 @@
                 nuevas formas de expresar mi creatividad.
             </p>
         </section>
+                       
+                            <section class="contacto">
+                           <h2>formulario de contacto</h2>
+                               <p class="texto-contacto"></p>
+                            ¿tienes una pregunta o una propuesta?
+                                completa el siguiente formulario.
+                           </p>
+                             </section>
+
+                <form id="formulariocontacto">
+        
+                      </form>
+
+
+                 <div class="campos">
+                   <label for="nombre">nombre completo</label>
+                  <input type="text" id="nombre"name="nombre"
+                      placeholder="escribe tu nombre" required minlength="3">
+
+
+                      </div>
+                      <div class="campo">
+                        <label for="correo">correo electronico</label>
+                        <input type="email" id="correo" name="correo"
+                        placeholder="ejemplo@correo.com" required>
+                      </div>
+
+
+                    <div class="campo">
+                        <label for="asunto">asunto</label>
+                        <select id="asunto" name="asunto" required>
+                            <option value="">selecciona una opcion</option>
+                            <option value="consulta">consulta</option>
+                             <option value="proyecto">propuesta de proyecto</option>
+                              <option value="formacion">formacion</option>
+                               <option value="otro">otro</option>
+                        </select>
+                    </div>
+                           
+                   <div class="campo">
+                    <label for="mensajecontacto">mensaje</label>
+                    <textarea id="mensajecontacto" name="mensaje" rows="5"
+                    placeholder="escribe tu mensaje..." re minlength="10"></textarea>
+                   </div>
+
+                   <button type="submit" class="boton-enviar">
+                    enviar mensaje
+                   </button>
+
+                   <p id="respuestaformulario"
+                   class="respuesta-formulario"
+                   roles="status"
+                   aria-live="polite"></p>
+
+                </form>
+            </section>
+
 
         <section class="habilidades">
 
